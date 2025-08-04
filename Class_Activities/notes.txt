@@ -1,0 +1,12 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+04/08/2025
+
+* Nomes de MÉTODOS, por boa pratica, deve conter verbos e a ação realizada por ele.
+
+* Automatização da entrada de dados ./ex0 < pub.in
+    '<' significa redirecionamento de dados, ou seja, conteudo do arquivo pub.in para a entrada de dados do programa "./
+    
+* Automatização da saída de dados ./ex0 > pub.out
+    '>' significa redirecionamento de dados do resultado do programa para um arquivo chamado pub.out
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
