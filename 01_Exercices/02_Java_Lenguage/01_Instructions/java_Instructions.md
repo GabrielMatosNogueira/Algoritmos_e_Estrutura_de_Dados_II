@@ -11,6 +11,16 @@
 - Separe responsabilidades em métodos e classes.
 - Evite duplicação de código.
 
+### Como compilar e executar um programa
+Para compilar um programa Java, utilize o comando `javac` seguido do nome do arquivo `.java`. Para executar, use o comando `java` seguido do nome da classe (sem a extensão):
+
+```bash
+javac MeuPrograma.java      # Compila o arquivo
+java MeuPrograma.java       # Executa a classe compilada
+```
+
+Certifique-se de que o nome da classe pública no arquivo seja igual ao nome do arquivo. O compilador irá gerar um arquivo `.class` com o bytecode, que pode ser executado pela JVM.
+
 ### Comandos de Entrada
 
 Em Java, a entrada de dados pode ser feita usando a classe `Scanner`:
