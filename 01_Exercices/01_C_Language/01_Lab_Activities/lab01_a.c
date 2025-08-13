@@ -11,7 +11,6 @@
  * @param  linha                (a funcao frase e todos seus caracteres em cada respectiva funcao)
  * @return quantidade de letras maisculas daquela devida entrada
  */
-
 int contagem_Maisculos(int quantidade_Maisculos, char linha[])
 {
     int i=0;
