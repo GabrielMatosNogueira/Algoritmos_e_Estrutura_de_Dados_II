@@ -11,8 +11,9 @@ class maior_Preco
 
     public static void main(String[] args) 
     {
+        int n=24;
         maior_Preco obj = new maior_Preco();
-        System.out.println("Nome: " + obj.nome);
+        System.out.println(String.format("Nome: %d", obj.nome, n));
         System.out.println("Preco: " + obj.preco);
     }
 }
