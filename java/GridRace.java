@@ -15,7 +15,7 @@ public class GridRace
         // Leitura de quantidade de competidores
         quantidadeCompetidores =  sc.nextInt();
 
-        while(condicaoExistencia= sc.hasNext())
+        while(condicaoExistencia== sc.hasNext())
         {
             ordemSaida = new int[quantidadeCompetidores];
 
@@ -40,7 +40,7 @@ public class GridRace
         sc.close();
     }
 
-    public static int sortCount (int []ordemSaida, int []ordemChegada)
+    public static void sortCount (int []ordemSaida, int []ordemChegada)
     {
         int quantidadeMovimentacoes=0;
         int temp=0;
@@ -56,7 +56,6 @@ public class GridRace
                 quantidadeMovimentacoes++;
             }
         }
-
-        return quantidadeMovimentacoes;
+        System.out.println(quantidadeMovimentacoes);
     }
 }
